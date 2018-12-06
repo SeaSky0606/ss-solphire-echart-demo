@@ -37,6 +37,20 @@ setOption:饼图，折线图，坐标显示等
 结合JQuery加载动态数据(echart-test-3.html) 
 ```
 
+
+### 使用说明
+- 1.访问接口
+    ```
+    http://localhost:8080/index?name=Jack
+    http://localhost:8080/greeting?name=Mama
+    ```
+- 2.访问页面 
+    ```
+    http://localhost:8080/echart-test-1.html
+    http://localhost:8080/echart-test-2.html
+    http://localhost:8080/echart-test-3.html
+    ```
+
 ### ！注意
 
 ```
