@@ -65,5 +65,5 @@
 			<url>https://repo.spring.io/libs-release</url>
 		</pluginRepository>
 	</pluginRepositories>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 </project>

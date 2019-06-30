@@ -40,7 +40,7 @@ setOption:饼图，折线图，坐标显示等
 
 ### 使用说明
 - 启动方式一： 打开IDE通过运行类 com.solphire.echart.demo.Application 启动服务
-- 启动方式二： 命令行运行 $ java -jar target/ss-solphire-echart-demo-0.1.0.war
+- 启动方式二： 命令行运行 $ java -jar target/ss-solphire-echart-demo-0.1.0.jar
 - 1.访问接口
     ```
     http://localhost:8080/index?name=Jack
