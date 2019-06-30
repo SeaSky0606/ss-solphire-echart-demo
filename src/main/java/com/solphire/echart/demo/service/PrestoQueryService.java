@@ -19,7 +19,7 @@ import java.util.Map;
 @Service
 public class PrestoQueryService {
     static Logger LOG = Logger.getLogger(PrestoQueryService.class);
-    private static String QUERY_FORMAT = "select ds,count(1) as cnt from test.nginx_log_test where ds>20190601 group by ds";
+    private static String QUERY_FORMAT = "select ds,count(1) as cnt from test.nginx_log_test where ds>20190601 group by ds order by ds";
     private PrestoConnection prestoConnect = PrestoConnection.getConnection();
 
 
